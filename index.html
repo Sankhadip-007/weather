@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="card">
+        <div id="search">
+            <input type="search" placeholder="Enter city name" id="search_bar" , required autocomplete="off">
+            <!-- <button id="btn">Search</button> -->
+        </div>
+        <div>
+            <button id="btn">Search</button>
+        </div>
+        <div class="weather">
+            <div class="p1">
+                <h2 class="city" style="font-size:3vw;">Weather in ----</h2>
+                <h2 class="country">IND</h2>
+            </div>
+            <div class="p2">
+                <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+                <div class="descrip">---</div>
+            </div>
+            <h1 class="temp">--° C</h1>
+            <p class="feel"></p>
+            <!-- <div class="descrip">---</div> -->
+            <div class="humidity">--%</div>
+            <div class="wind">- km/h</div>
+        </div>
+        <div class="credit"><p>by @Sankhadip</p></div>
+    </div>
+    
+    <script src="main.js" defer></script>
+</body>
+
+</html>
